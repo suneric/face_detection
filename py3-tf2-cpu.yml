@@ -1,0 +1,13 @@
+name: py3-tf2-cpu
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python==3.8
+  - pip
+  - opencv
+  - pip:
+    - face-recognition
+    - numpy
+    - opencv-python==4.2.0.34
+    - -e .
